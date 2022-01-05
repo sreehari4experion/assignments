@@ -1,0 +1,10 @@
+.bar {
+  height: 5px;
+  background: linear-gradient(to right, hsl(283, 81%, 60%), hsl(221, 85%, 68%));
+}
+.btn-1 {
+  border-radius: 2rem;
+}
+.search-box {
+  border-radius: 2rem;
+}

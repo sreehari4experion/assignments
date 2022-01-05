@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background: linear-gradient(to bottom, #08111b, #4d1a57);
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #08111b;
+  border-bottom: 5px solid rgb(201, 67, 145);
+  font-weight: 200;
+  color: rgb(201, 67, 145);
+}
+.header h1 {
+  text-align: center;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 1;
+}
+.card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #08111b;
+  border-bottom: 5px solid rgb(201, 67, 145);
+  font-weight: 200;
+  /* color: rgb(201, 67, 145); */
+  margin: 1rem;
+  min-width: 10rem;
+  max-width: 23rem;
+}
+.title {
+  font-size: 1.5rem;
+}
+.link a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: azure;
+}
+.link a:hover {
+  color: rgb(201, 67, 145);
+}
+.icons {
+  padding: 1rem;
+  margin: 1rem;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
